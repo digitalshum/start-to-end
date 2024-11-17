@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 7</title>
+</head>
+<body>
+    <h1>Contact Form</h1>
+
+
+    <fieldset style="width: 350px; border: solid 2px;">
+        <legend><b>Your Details</b></legend>
+        <p><label>
+                Name: <input type="text" name="name" placeholder="Type your name" size="25" maxlength="100">
+            </label></p>
+        <p>
+            Email: <input type="email" name="Email" placeholder="Type your Email"> </label></p>
+
+    </fieldset>
+<br>
+    <fieldset style="width: 350px; border: solid 2px;">
+        <legend><b>Your Review</b></legend>
+        </label>How did you hear about us?
+        <select name="hear-about-us">
+            <option value="Google">Google</option>
+            <option value="Facebook">Facebook</option>
+            <option value="Instagram">Instagram</option>
+        </select>
+        <p>Would you visit again?
+            <br>
+            <input type="radio" name="Visit">Yes
+            <input type="radio" name="Visit">No
+            <input type="radio" name="Visit">Maybe
+        </p>
+        <p>
+            Comments:
+            <br>
+            <textarea name="comments" placeholder="Type your comments here" cols="30" rows="5"></textarea>
+        </p>
+
+        <input type="checkbox" name="signup">Sign me up for email updates
+    </fieldset>
+    </p>
+    <input type="submit" value="Submit review" style="color: rgb(15, 15, 15); padding: 5px ;">
+    </p>
+    </form>
+</body>
+</html>

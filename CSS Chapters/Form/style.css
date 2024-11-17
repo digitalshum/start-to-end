@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Font2';
+    src: url('/fonts/Montserrat-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Font2';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    color: #00c3f7;
+    background-color: #00171c;
+}
+
+fieldset {
+    width: 300px;
+    border: 1px solid #00c3f7;
+    text-transform: capitalize;
+    border-radius: 4px;
+}
+
+legend {
+    color: #00c3f7;
+    font-weight: 500px;
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #00c3f7;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 4px;
+    padding-left: 20px;
+    background-size: 10px;
+    background-color: #ffffff;
+    padding-top: 5px;
+padding-bottom: 5px;
+}
+
+.email {
+    margin-left: 32px;
+    background-image: url(email.png);
+}
+
+.password {
+    background-image: url(padlock.png);
+}
+
+button {
+    background-color: #00c3f7;
+    text-transform: capitalize;
+    border: 1px solid#00c3f7;
+    border-radius: 5px;
+    margin-left: 195px;
+    margin-top: 10px;
+    font-family: 'Font2';
+    padding: 2px 15px;
+margin-bottom: 5px;
+    color: #00c3f7;
+    background-color: #00171c;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #00c3f7;
+    background-color: #ffffff;
+}
+
+input:active {
+    background-color: #00c3f7;
+}
+
+button:hover {
+    color: #00171c;
+    background-color: #00c3f7;
+}
