@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url('./../../fonts/Montserrat-SemiBold.ttf') format('truetype');
+}
+body{
+    font-family: 'Montserrat-SemiBold';
+    text-align: center;
+}
+.a{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    margin: 75px auto;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+.b{
+    border: 100px solid transparent;
+    border-image: url(bg\ 1.png) 80 stretch;
+    width: 50%;
+    margin: 0% auto;
+    font-size: 18px;
+    padding: 5px;
+}
+.c{
+    border: 100px solid transparent;
+    border-image: url(bg\ 2.png) 80 stretch;
+    width: 50%;
+    margin: 0% auto;
+    font-size: 18px;
+    padding: 5px;
+}
+.d{
+    border: 100px solid transparent;
+    border-image: url(bg\ 3.png) 80 stretch;
+    width: 50%;
+    margin: 0% auto;
+    font-size: 18px;
+    padding: 5px;
+}
+
