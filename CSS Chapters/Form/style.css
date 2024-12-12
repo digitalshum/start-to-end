@@ -37,7 +37,7 @@ input {
     background-size: 10px;
     background-color: #ffffff;
     padding-top: 5px;
-padding-bottom: 5px;
+    padding-bottom: 5px;
 }
 
 .email {
@@ -58,7 +58,7 @@ button {
     margin-top: 10px;
     font-family: 'Font2';
     padding: 2px 15px;
-margin-bottom: 5px;
+    margin-bottom: 5px;
     color: #00c3f7;
     background-color: #00171c;
 }
