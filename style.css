@@ -121,3 +121,9 @@ h1 {
 .frame{
     background-color: #00c3f7;
 }
+
+.right{
+    text-align: center;
+    padding-right: 10px;
+    margin-top: 50px;
+}
