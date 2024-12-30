@@ -50,3 +50,41 @@ a {
     font-size: 16px;
 
 }
+
+
+@media only screen and (max-width: 768px) {
+body {
+    width: 768px;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: -00px;
+    width: 768px;
+}
+
+.three {
+    border-radius: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
+    text-align: center;
+    /* width: 250px; */
+    /* height: 100px; */
+}
+
+a {
+    text-decoration: none;
+    color: #00171c;
+
+}
+.aa {
+    text-decoration: none;
+    color: #00c3f7;
+    background-color: #00171c;
+    padding: 8px 15px;
+    font-size: 16px;
+}
+
+}
