@@ -113,7 +113,7 @@ h1 {
 
     .one{
         display: flex;
-        flex-flow: column-reverse;
+        flex-flow: column;
         gap: 20px;
     }
 
@@ -123,71 +123,6 @@ h1 {
 
     .three {
         margin-left: 80px;
-    }
-    
-    a{
-        text-decoration: none;
-        color: #00171c;
-        
-    }
-    .aa{
-        text-decoration: none;
-        color: #00c3f7;
-    }
-    /* p.top {
-        font-family: bold;
-        font-size: 32px;
-        background-color: #00171c;
-        color: #00c3f7;
-        text-transform: uppercase;
-        text-align: center;
-        padding-bottom: 10px;
-        padding-top: 10px;
-        border-radius: 15px;
-    } */
-    
-    span {
-        font-family: Font2;
-        background-color: #00171c;
-        font-size: 18px;
-        color: #00c3f7;
-        text-transform: uppercase;
-        text-align: center;
-        padding-bottom: 10px;
-        padding-top: 10px;
-        border-radius: 15px;
-    }
-    
-    h1 {
-        background-color: #ffffff;
-        background-color: hsla(0, 100%, 100%, 0.5);
-        color: #64645A;
-        padding-left: 30px;
-    }
-    
-    .tag>a {
-        display: flex;
-        width: 280px;
-        height: 10px;
-        text-decoration: none;
-        padding-left: 30px;
-        margin: 1% auto;
-        font-size: 18px;
-        background-color: #00171c;
-        color: #00c3f7;
-        text-align: center;
-        padding-bottom: 20px;
-        padding-top: 10px;
-        border-radius: 15px;
-    }
-    .frame{
-        background-color: #00c3f7;
-    }
-    
-    .right{
-        text-align: center;
-        padding-right: 10px;
-        margin-top: 50px;
     }
     
     
